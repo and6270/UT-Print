@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8c0f7cf6-526b-4e6d-8bea-5447b79c12eb" extendedConfigurationObject="bf75bcc5-82ee-4bd0-89e1-420b42c99454">
+  <producedTypes>
+    <objectType typeId="959f8894-956c-4390-b583-e91a52f8983c" valueTypeId="86a2088a-d6d5-4fc2-9314-d8b2ca3ea679"/>
+    <refType typeId="ced0dc19-45ab-43c7-80a8-d8bb920fcd9d" valueTypeId="fdf6259e-5610-4f4b-941b-bdfdcb5c6bd2"/>
+    <selectionType typeId="6580dd94-3069-47f0-8d08-d73ae0d67c93" valueTypeId="ea04aade-f03c-4d86-8e5b-a60fe16be132"/>
+    <listType typeId="2cb7f8a9-0f5e-4e8c-bda6-2cfbd0ffce39" valueTypeId="271a2180-1bdd-4969-9c15-789bbe83bc2d"/>
+    <managerType typeId="26e41140-b6cd-427b-b36f-da7a9ec7fb01" valueTypeId="fdbe42b0-0d4d-4bd2-b495-526fd7218189"/>
+  </producedTypes>
+  <name>Партнеры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

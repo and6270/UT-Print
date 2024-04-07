@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a2cc46fd-79e0-43f7-b7aa-f422439d4d67" extendedConfigurationObject="07b3c407-9a3a-4f94-b798-226c96d66840">
+  <producedTypes>
+    <objectType typeId="7f650e41-31d2-4ce7-b055-ee9e91eb8127" valueTypeId="f9d837b6-c031-407f-8b05-5bfdbfa70dbb"/>
+    <refType typeId="77f2e31b-6fad-4a58-891e-881417306245" valueTypeId="1bdf35a1-b438-4f1e-aaa5-fb6afe23b28f"/>
+    <selectionType typeId="9837d8f3-079f-4ace-b8d4-6ef552e15ad6" valueTypeId="e3395954-d365-4954-b66e-4b7f7b4a9bb0"/>
+    <listType typeId="2fb81389-5654-4428-b904-d80f40cd4a00" valueTypeId="82cc066b-2b01-484f-8274-e7433e1d1c87"/>
+    <managerType typeId="f49a1714-1584-48d2-a379-cde8a6e31666" valueTypeId="c19e4a79-e527-4b85-9a9d-03daeffd82fe"/>
+  </producedTypes>
+  <name>Склады</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

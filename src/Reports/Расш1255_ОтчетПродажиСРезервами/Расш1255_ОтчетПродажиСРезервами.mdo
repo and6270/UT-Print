@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f92f1463-0ece-4e78-9412-229826d9e9d0">
+  <producedTypes>
+    <objectType typeId="6471dccb-41d1-496f-a9d3-ccae4d1e84e2" valueTypeId="bc18db37-bd32-4915-b324-d838a9a2bb29"/>
+    <managerType typeId="cd7571ef-4400-4db1-9acb-60d1dd5a9c69" valueTypeId="04f55b41-6920-449f-b481-16e7dfd3054e"/>
+  </producedTypes>
+  <name>Расш1255_ОтчетПродажиСРезервами</name>
+  <synonym>
+    <key>ru</key>
+    <value>++Отчет продажи с резервами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Расш1255_ОтчетПродажиСРезервами.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="1852e084-22bf-49f0-98f7-04dd3281b9df">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

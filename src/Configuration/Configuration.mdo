@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c8cadafb-1c49-46d6-82c1-81b8f33047c5">
+  <name>ПечатьТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать товаров</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="46dcd69b-407a-4a60-8784-028f517205c2"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4a957959-7306-48c2-88a3-2b62bea53f89"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="3df028ce-2fb6-4757-b39c-dfb9347efb9a"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="56727f89-527e-435f-845c-c0a4ee270fb9"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b306ae13-4b53-4bd3-bd15-ab0b97d996d1"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="eaf20205-bd6b-4b24-8c5e-36bdc196577e"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="34948f34-b592-4801-9735-b7fb4e0116c8"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Расш1255_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Расш1255_ОсновнаяРоль</defaultRoles>
+  <vendor>and6270@gmail.com</vendor>
+  <version>2024.04.04</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.23</compatibilityMode>
+  <languages uuid="2d7afd96-2908-435a-9dd8-3223155d13d8" extendedConfigurationObject="0663bf5b-bcba-4a40-a862-a0b3baa2d884">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <commonPictures>CommonPicture.Расш1255_ОбщаяКартинка1</commonPictures>
+  <commonPictures>CommonPicture.ВставкаСтрок</commonPictures>
+  <roles>Role.Расш1255_ОсновнаяРоль</roles>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Партнеры</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.БанковскиеСчетаОрганизаций</catalogs>
+  <catalogs>Catalog.БанковскиеСчетаКонтрагентов</catalogs>
+  <catalogs>Catalog.ОтветственныеЛицаОрганизаций</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.РеализацияТоваровУслуг</documents>
+  <enums>Enum.СтатусыРеализацийТоваровУслуг</enums>
+  <enums>Enum.ТипыНалогообложенияНДС</enums>
+  <reports>Report.Расш1255_ОтчетПродажиСРезервами</reports>
+  <dataProcessors>DataProcessor.ПечатьСчетовНаОплату</dataProcessors>
+</mdclass:Configuration>
